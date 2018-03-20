@@ -1,0 +1,86 @@
+<template>
+	<div id="home">
+		<div class="button" style="text-align:center;clear:both;">
+			<a href="#" class="fa fa-github"></a>
+			<a href="#" class="fa fa-google"></a>
+			<a href="#" class="fa fa-qq"></a>
+		</div>
+	</div>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {};
+		}
+	}
+</script>
+
+<style lang="css" scoped>
+	#home {
+		height: 100%;
+		width: 100%;
+	}
+	.button {
+		position: absolute;
+		top: 90%;
+		transform: translateY(-50%);
+		width: 100%;
+	}
+	*,
+	*:after,
+	*:before {
+		box-sizing: border-box;
+	}
+	.fa {
+		height: 2em;
+		font-size: 2em;
+		overflow: hidden;
+		margin: 1em;
+		position: relative;
+		text-decoration: none;
+		width: 2em;
+		border-radius: 1em;		
+	}
+	.fa:before,
+	.fa:after {
+		left: 0;
+		position: absolute;
+		text-align: center;
+		transition: 0.5s;
+		top: 50%;
+		width: 100%;
+	}
+	.fa:before {
+		color: white;
+		transform: translate3D(0, -50%, 0);
+		z-index: 2;
+	}
+	.fa:after {
+		padding-bottom: 25%;
+		padding-top: 300%;
+		top: 0;
+	}
+	.fa:hover:after {
+		transform: translate3D(0, -73%, 0);
+	}
+	.fa:hover:before {
+		transform: translate3D(0, -250%, 0);
+	}
+	.fa-github:after {
+		background-image: linear-gradient(#00acee 25%, #ffffff 75%);
+		content: "\f09b";
+		color: #00acee;
+	}
+	.fa-google:after {
+		background-image: linear-gradient(#3b5998 25%, #ffffff 75%);
+		content: "\f1a0";
+		color: #3b5998;
+	}
+	.fa-qq:after {
+		background-image: linear-gradient(	#4F4F4F 25%, #ffffff 75%);
+		content: "\f1d6";
+		color: 	#4F4F4F;
+	}
+
+</style>
