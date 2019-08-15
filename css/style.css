@@ -64,6 +64,7 @@ body {
 
 .button {
     position: absolute;
+    z-index: 999;
     top: 90%;
     transform: translateY(-50%);
     width: 100%;
@@ -128,8 +129,13 @@ body {
     color: #3b5998;
 }
 
-.fa-qq:after {
-    background-image: linear-gradient( #4F4F4F 25%, #ffffff 75%);
-    content: "\f1d6";
+.fa-rss:after {
+    background-image: linear-gradient(#4F4F4F 25%, #ffffff 75%);
+    content: "\f09e";
     color: #4F4F4F;
+}
+.fa-cloud:after {
+    background-image: linear-gradient(#eF4F4F 25%, #ffffff 75%);
+    content: "\f0c2";
+    color: #eF4F4F;
 }
