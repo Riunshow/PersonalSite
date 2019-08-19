@@ -21,7 +21,7 @@ body {
     top: 50px;
     position: relative;
     color: #d0d0d0;
-    display: inline-block;
+    display: inline-buttonBottom;
     font-size: 15px;
     text-decoration: none;
     transform: rotate(90deg);
@@ -76,7 +76,7 @@ body {
     box-sizing: border-box;
 }
 
-.fa {
+#buttonBottom .fa {
     height: 2em;
     font-size: 2em;
     overflow: hidden;
@@ -87,8 +87,8 @@ body {
     border-radius: 1em;
 }
 
-.fa:before,
-.fa:after {
+#buttonBottom .fa:before,
+#buttonBottom .fa:after {
     left: 0;
     position: absolute;
     text-align: center;
@@ -97,44 +97,44 @@ body {
     width: 100%;
 }
 
-.fa:before {
+#buttonBottom .fa:before {
     color: white;
     transform: translate3D(0, -50%, 0);
     z-index: 2;
 }
 
-.fa:after {
+#buttonBottom .fa:after {
     padding-bottom: 25%;
     padding-top: 300%;
     top: 0;
 }
 
-.fa:hover:after {
+#buttonBottom .fa:hover:after {
     transform: translate3D(0, -73%, 0);
 }
 
-.fa:hover:before {
+#buttonBottom .fa:hover:before {
     transform: translate3D(0, -250%, 0);
 }
 
-.fa-github:after {
+#buttonBottom .fa-github:after {
     background-image: linear-gradient(#00acee 25%, #ffffff 75%);
     content: "\f09b";
     color: #00acee;
 }
 
-.fa-google:after {
+#buttonBottom .fa-google:after {
     background-image: linear-gradient(#3b5998 25%, #ffffff 75%);
     content: "\f1a0";
     color: #3b5998;
 }
 
-.fa-rss:after {
+#buttonBottom .fa-rss:after {
     background-image: linear-gradient(#4F4F4F 25%, #ffffff 75%);
     content: "\f09e";
     color: #4F4F4F;
 }
-.fa-cloud:after {
+#buttonBottom .fa-cloud:after {
     background-image: linear-gradient(#eF4F4F 25%, #ffffff 75%);
     content: "\f0c2";
     color: #eF4F4F;
