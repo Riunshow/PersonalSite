@@ -1,0 +1,1 @@
+<div id="footer">💎蓝钻贵族</div> 
