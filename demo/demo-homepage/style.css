@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	
+
 	/* Goin' all DOS-y */
 	-webkit-font-smoothing: none;
 }
@@ -22,12 +22,14 @@ a {
 	color: #fff;
 }
 
-h1, h3 {
+h1,
+h3 {
 	font: bold 16px/18px "Courier New", Courier, mono;
 	white-space: pre;
 	color: #999;
 	margin: 10px 0;
 }
+
 h1 b {
 	color: #ddd;
 }
@@ -44,13 +46,15 @@ h3 span {
 	font-style: normal;
 	margin-left: 25px;
 }
-	h3 span.link:hover, a h3:hover span.link {
-		-webkit-animation: blink .75s linear infinite;
-		-moz-animation: blink .75s linear infinite;
-		-ms-animation: blink .75s linear infinite;
-		-o-animation: blink .75s linear infinite;
-		animation: blink .75s linear infinite;
-	}
+
+h3 span.link:hover,
+a h3:hover span.link {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+	animation: blink .75s linear infinite;
+}
 
 ul {
 	list-style: none;
@@ -62,18 +66,22 @@ ul {
 		background: #ddd;
 		color: #000;
 	}
+
 	50% {
 		background: #ddd;
 		color: #000;
 	}
+
 	50.01% {
 		background: transparent;
 		color: #aaa;
 	}
+
 	99.99% {
 		background: transparent;
 		color: #aaa;
 	}
+
 	100% {
 		background: #ddd;
 		color: #aaa;
@@ -81,49 +89,57 @@ ul {
 }
 
 @-moz-keyframes blink {
-   0% {
-   	background: #ddd;
-   	color: #000;
-   }
-   50% {
-   	background: #ddd;
-   	color: #000;
-   }
-   50.01% {
-   	background: transparent;
-   	color: #aaa;
-   }
-   99.99% {
-   	background: transparent;
-   	color: #aaa;
-   }
-   100% {
-   	background: #ddd;
-   	color: #aaa;
-   }
+	0% {
+		background: #ddd;
+		color: #000;
+	}
+
+	50% {
+		background: #ddd;
+		color: #000;
+	}
+
+	50.01% {
+		background: transparent;
+		color: #aaa;
+	}
+
+	99.99% {
+		background: transparent;
+		color: #aaa;
+	}
+
+	100% {
+		background: #ddd;
+		color: #aaa;
+	}
 }
 
 @-ms-keyframes blink {
-   0% {
-   	background: #ddd;
-   	color: #000;
-   }
-   50% {
-   	background: #ddd;
-   	color: #000;
-   }
-   50.01% {
-   	background: transparent;
-   	color: #aaa;
-   }
-   99.99% {
-   	background: transparent;
-   	color: #aaa;
-   }
-   100% {
-   	background: #ddd;
-   	color: #aaa;
-   }
+	0% {
+		background: #ddd;
+		color: #000;
+	}
+
+	50% {
+		background: #ddd;
+		color: #000;
+	}
+
+	50.01% {
+		background: transparent;
+		color: #aaa;
+	}
+
+	99.99% {
+		background: transparent;
+		color: #aaa;
+	}
+
+	100% {
+		background: #ddd;
+		color: #aaa;
+	}
 }
 
 @-o-keyframes blink {
@@ -131,18 +147,22 @@ ul {
 		background: #ddd;
 		color: #000;
 	}
+
 	50% {
 		background: #ddd;
 		color: #000;
 	}
+
 	50.01% {
 		background: transparent;
 		color: #aaa;
 	}
+
 	99.99% {
 		background: transparent;
 		color: #aaa;
 	}
+
 	100% {
 		background: #ddd;
 		color: #aaa;
@@ -150,24 +170,28 @@ ul {
 }
 
 @keyframes blink {
-  0% {
-  	background: #ddd;
-  	color: #000;
-  }
-  50% {
-  	background: #ddd;
-  	color: #000;
-  }
-  50.01% {
-  	background: transparent;
-  	color: #aaa;
-  }
-  99.99% {
-  	background: transparent;
-  	color: #aaa;
-  }
-  100% {
-  	background: #ddd;
-  	color: #aaa;
-  }
+	0% {
+		background: #ddd;
+		color: #000;
+	}
+
+	50% {
+		background: #ddd;
+		color: #000;
+	}
+
+	50.01% {
+		background: transparent;
+		color: #aaa;
+	}
+
+	99.99% {
+		background: transparent;
+		color: #aaa;
+	}
+
+	100% {
+		background: #ddd;
+		color: #aaa;
+	}
 }
